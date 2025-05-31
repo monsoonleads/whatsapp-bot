@@ -1,6 +1,3 @@
-// Keep-alive server for Render
-const http = require('http');
-http.createServer((req, res) => res.end('Bot is alive')).listen(process.env.PORT || 3000);
 const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
 const qrcode = require('qrcode-terminal');
 const axios = require('axios');
