@@ -9,7 +9,7 @@ const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 // Benykyms Printers Services & Pricing (from your JSON)
 const SERVICES_DATA = `
 Benykyms Printers offers the following services and prices:
-- Window Graphics Sticker 1.2m: KSh 1
+- Window Graphics Sticker 1.2m: KSh 1200
 - Reflective Sticker 1.2m: KSh 1200
 - Clear Sticker 1.2m: KSh 1500
 - Polo T-Shirt Blue Colour: KSh 1000
@@ -32,18 +32,14 @@ Benykyms Printers offers the following services and prices:
 - A5 Poster/Flyer Printing Matt Paper - 15
 - Digital A4 Colour Printing - 20
 - Document Scanning - 20
-- Envelope DL Size - 25
-- Toner 8115 Black - 27
 - A3 Poster - 30
-- Tier 5 Procurement Consultation - 30
 - Eulogy Printing Two Sheets Own Paper - 35
 - 130 Gms A3 Art Paper Colour Printing - 40
 - Ivory Paper Printing - 50
 - Small Medium Binding (14mm-18mm) - 50
 - Tape Binding - Small - 50
 - Transport Service - 50
-- Tender Project Photos Organization & Printing - 50
-- A3 Eulogy 2 Leaflets Wholesale - 55
+- A3 Eulogy 2 Leaflets 100-150 copies - 55,100 or less copies 60,150 or above 50
 - Sticky Notes Small - 70
 - Adestor A3 Tic Tac Paper - 80
 - Digital 250 Gms Art Cad - 100
@@ -61,8 +57,8 @@ Benykyms Printers offers the following services and prices:
 - Tendering Reference Letter Services - 300
 - Branded Reflectors XL - 350
 - Sticker Pasting - 350
-- Branded Cap Orange - 400
-- Jersey Branding - 400
+- Branded Cap Orange - 450
+- Jersey Branding - 350
 - Wooden Stamp - Small - 450
 - Simple Graphics & Design - 500
 - Design Certificate - 500
@@ -80,6 +76,10 @@ Benykyms Printers offers the following services and prices:
 -Uv printing Bottles retail -300 wholesale bargainable
 -Business Crads single sided -10 ,both sided 15,laminated both sided 20,laminated single sided 15 quantity mus be above 10pcs
 certificate printing on Ivory paper  60,on Neon paper 160,on embossed 30 for bulky kindly call or visit our shops for negotiations
+-Roll up banners narrow base - 6500 broad base -9000
+-Backdrop price  depends on size  if size is given direct the client to the customer Care
+- Uv branded Water bottles -1000 branded thermal bottles 1800
+-Branded Pens price from -30 to 150 depends on type of pen and quantity minimum quantity is 40pcs
 `;
 
 // Business Info (fallback if AI fails)
