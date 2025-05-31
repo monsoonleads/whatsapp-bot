@@ -24,22 +24,19 @@ Benykyms Printers offers the following services and prices:
 - Cartridge 513 HP - 1
 - Photocopy Papers (Ream Papers) - 1
 -branded Dust Coat - 1300 when plain 1000
-- Dummy Cheque 60x120cm - 4500
-- Mentor Membership Card - 10
+- Dummy Cheque  - 4500
 - Branded Dummy Cheques - 12
-- HP Cartridge 532 - 13
 - Digital A3 Plain Paper Black & White Photocopy - 15
 - A5 Poster/Flyer Printing Matt Paper - 15
 - Digital A4 Colour Printing - 20
 - Document Scanning - 20
 - A3 Poster - 30
-- Eulogy Printing Two Sheets Own Paper - 35
-- 130 Gms A3 Art Paper Colour Printing - 40
+- 130 Gms A3 Art Paper Colour Printing - 25 one sided bothsided 35 for bulky call for negotiations bulky is above 100
 - Ivory Paper Printing - 50
 - Small Medium Binding (14mm-18mm) - 50
 - Tape Binding - Small - 50
 - Transport Service - 50
-- A3 Eulogy 2 Leaflets 100-150 copies - 55,100 or less copies 60,150 or above 50
+- A3 Eulogy 2 Leaflets 100-150 copies - 55,100 and less copies 60,150 and above-50
 - Sticky Notes Small - 70
 - Adestor A3 Tic Tac Paper - 80
 - Digital 250 Gms Art Cad - 100
@@ -74,8 +71,8 @@ Benykyms Printers offers the following services and prices:
 - Branded Black T-Shirt XL - 800
 -Eulogies 130gms -60
 -Uv printing Bottles retail -300 wholesale bargainable
--Business Crads single sided -10 ,both sided 15,laminated both sided 20,laminated single sided 15 quantity mus be above 10pcs
-certificate printing on Ivory paper  60,on Neon paper 160,on embossed 30 for bulky kindly call or visit our shops for negotiations
+-Business Crads single sided -10 ,both sided 15,laminated both sided 20,laminated single sided 15 quantity mus be above 20pcs
+-certificate printing on Ivory paper  60,on Neon paper 160,on embossed 30 for bulky kindly call or visit our shops for negotiations
 -Roll up banners narrow base - 6500 broad base -9000
 -Backdrop price  depends on size  if size is given direct the client to the customer Care
 - Uv branded Water bottles -1000 branded thermal bottles 1800
