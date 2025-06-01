@@ -9,66 +9,113 @@ const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 // Benykyms Printers Services & Pricing (from your JSON)
 const SERVICES_DATA = `
 Benykyms Printers offers the following services and prices:
-- Window Graphics Sticker 1.2m: KSh 1200
-- Reflective Sticker 1.2m: KSh 1200
-- Clear Sticker 1.2m: KSh 1500
-- Polo T-Shirt Blue Colour: KSh 1000
-- Bucklit Banner 1.2m: KSh 900
-- Tender Numbering: KSh 1
-- Portrait A3: KSh 1500
-- A4 Colour Printing: KSh 20
-- Branded T-Shirts: From KSh 550
-- Tender Numbering - 1
-- Portrait Picture A3 - 1500
-- Portrait A2 Size - 2500
-- Cartridge 513 HP - 1
-- Photocopy Papers (Ream Papers) - 1
--branded Dust Coat - 1300 when plain 1000
-- Dummy Cheque  - 4500
-- Branded Dummy Cheques - 12
-- Digital A3 Plain Paper Black & White Photocopy - 15
-- A5 Poster/Flyer Printing Matt Paper - 15
-- Digital A4 Colour Printing - 20
-- Document Scanning - 20
-- A3 Poster - 30
-- 130 Gms A3 Art Paper Colour Printing - 25 one sided bothsided 35 for bulky call for negotiations bulky is above 100
-- Ivory Paper Printing - 50
-- Small Medium Binding (14mm-18mm) - 50
-- Tape Binding - Small - 50
-- Transport Service - 50
-- A3 Eulogy 2 Leaflets 100-150 copies - 55,100 and less copies 60,150 and above-50
-- Sticky Notes Small - 70
-- Adestor A3 Tic Tac Paper - 80
-- Digital 250 Gms Art Cad - 100
-- Small Binding (8mm-12mm) - 100
-- Laptop Core i7, 1 TB SSD - 110
-- Kangaroo Staples 23/10H - 150
-- Medium Binding (20mm-28mm) - 150
-- Neon Certificate Printing - 200
-- Tape Binding - Medium Large - 200
-- Invoice Design, Tabulation & Printing - 200
-- Diary Branding - 250
-- Tape Binding - Large - 250
-- Large Binding (45mm-51mm) - 300
-- Own Fabric Branding - 300
-- Tendering Reference Letter Services - 300
-- Branded Reflectors XL - 350
-- Sticker Pasting - 350
-- Branded Cap Orange - 450
-- Jersey Branding - 350
-- Wooden Stamp - Small - 450
-- Simple Graphics & Design - 500
-- Design Certificate - 500
-- Burial T-Shirt Black XL - 800
-- Round Neck T-Shirt - 550
-- Branded Black T-Shirt M Kids - 800
-- Glossy Sticker 1.27m - 600
-- Glossy Banner 1.2m - 650
-- Branded White T-Shirt L - 700
-- Procurement Consulting Services - 725
-- BP/Stamp O-3045D - 750
-- Branded White T-Shirt Size 28 - 800
-- Branded Black T-Shirt XL - 800
+- Stickers & Banners
+  - Window Graphics Sticker 1.2m: KSh 1200
+  - Reflective Sticker 1.2m: KSh 1200
+  - Clear Sticker 1.2m: KSh 1500
+  - Bucklit Banner 1.2m: KSh 900
+  - Glossy Sticker 1.27m: KSh 600
+  - Glossy Banner 1.2m: KSh 650
+  - Sticker Pasting: KSh 350
+  - Roll-up Banners Narrow Base: KSh 6500
+  - Roll-up Banners Broad Base: KSh 9000
+  - Backdrop: Depends on size, contact Customer Care
+
+- T-Shirts – Branded and Plain
+  - Kids Round Neck T-Shirts
+    - branded_price: KSh 600
+    - plain_price: KSh 450
+    - sizes: 2, 4, 6, 8, 10, 12 years
+    - note: For different colors, contact Customer Care
+    - bulk: Orders above 30 pcs, contact Customer Care
+  - Adults Round Neck T-Shirts
+    - branded_price: KSh 800
+    - plain_price: KSh 550
+    - sizes: S, M, L, XL, XXL
+    - rare_size: XXXL (Price above KSh 1000)
+    - note: For different colors or XXXL, contact Customer Care
+    - bulk: Orders above 30 pcs, contact Customer Care
+  - Adults Polo T-Shirts
+    - branded_price: KSh 1000
+    - plain_price: KSh 750
+    - sizes: S, M, L, XL, XXL
+    - rare_size: XXXL (Price above KSh 1000)
+    - note: For different colors or XXXL, contact Customer Care
+    - bulk: Orders above 30 pcs, contact Customer Care
+-Branded Reflectors prices differs for diffrent qualities light one 350,moderate 400, superior 450,best 650,heavy 950
+
+- Design & Branding
+  - Simple Graphics & Design: KSh 500
+  - Design Certificate: KSh 500
+  - Invoice Design, Tabulation & Printing: KSh 200
+  - Diary Branding: KSh 250
+  - Own Fabric Branding: KSh 300
+  - Jersey Branding: KSh 350
+  - Branded Reflectors XL: KSh 350
+  - Branded Cap Orange: KSh 450
+
+- Portraits & Photography
+  - Portrait A3: KSh 1500
+  - Portrait Picture A3: KSh 1500
+  - Portrait A2 Size: KSh 2500
+
+- Printing Services
+  - A4 Colour Printing: KSh 20
+  - Digital A4 Colour Printing: KSh 20
+  - Digital A3 Plain Paper Black & White Photocopy: KSh 15
+  - A5 Poster/Flyer Printing Matt Paper: KSh 15
+  - A3 Poster: KSh 30
+  - 130 Gsm A3 Art Paper Colour Printing One Sided: KSh 25
+  - 130 Gsm A3 Art Paper Colour Printing Both Sides: KSh 35
+  - Ivory Paper Printing: KSh 50
+  - Eulogies 130gsm: KSh 60
+  - A3 Eulogy 2 Leaflets (≤100 copies): KSh 60
+  - A3 Eulogy 2 Leaflets (100–150 copies): KSh 55
+  - A3 Eulogy 2 Leaflets (above 150 copies): KSh 50
+  - Certificate Printing on Ivory Paper: KSh 60
+  - Certificate Printing on Neon Paper: KSh 160
+  - Certificate Printing on Embossed Paper: KSh 30 (bulky only)
+  - Business Cards Single Sided: KSh 10
+  - Business Cards Both Sided: KSh 15
+  - Business Cards Laminated Both Sided: KSh 20
+  - Business Cards Laminated Single Sided: KSh 15
+  - Minimum Quantity for Business Cards: 20 pcs
+
+- Office Equipment & Supplies
+  - Cartridge 513 HP: KSh 1
+  - Photocopy Papers (Ream): KSh 1
+  - Sticky Notes Small: KSh 70
+  - Adestor A3 Tic Tac Paper: KSh 80
+  - Digital 250 Gsm Art Cad: KSh 100
+  - Kangaroo Staples 23/10H: KSh 150
+  - Wooden Stamp Small: KSh 450
+  - BP/Stamp O-3045D: KSh 750
+  - Laptop Core i7, 1 TB SSD: KSh 110
+
+- Binding & Finishing
+  - Small Binding (8mm–12mm): KSh 100
+  - Small-Medium Binding (14mm–18mm): KSh 50
+  - Medium Binding (20mm–28mm): KSh 150
+  - Large Binding (45mm–51mm): KSh 300
+  - Tape Binding Small: KSh 50
+  - Tape Binding Medium/Large: KSh 200
+  - Tape Binding Large: KSh 250
+
+- Document Services
+  - Document Scanning: KSh 20
+  - Tender Numbering: KSh 1
+  - Tendering Reference Letter Services: KSh 300
+
+- Consulting Services
+  - Procurement Consulting Services: KSh 725
+
+- UV Printing & Branded Items
+  - UV Branded Water Bottles: KSh 1000
+  - Branded Thermal Bottles: KSh 1800
+  - UV Printing Bottles (Retail): KSh 300
+  - UV Printing Bottles (Wholesale): Bargainable
+  - Branded Pens: From KSh 30 to 150 (min 40 pcs)
+Self inking Stamps no dates 1800, with dates 2500
 -Eulogies 130gms -60
 -Uv printing Bottles retail -300 wholesale bargainable
 -Business Crads single sided -10 ,both sided 15,laminated both sided 20,laminated single sided 15 quantity mus be above 20pcs
