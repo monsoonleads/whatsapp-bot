@@ -9,6 +9,7 @@ const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 // Benykyms Printers Services & Pricing (from your JSON)
 const SERVICES_DATA = `
 Benykyms Printers offers the following services and prices:
+Never list all services to the client in one inquiry 
 - Stickers & Banners
   - Window Graphics Sticker 1.2m: KSh 1200
   - Reflective Sticker 1.2m: KSh 1200
@@ -124,6 +125,7 @@ Self inking Stamps no dates 1800, with dates 2500
 -Backdrop price  depends on size  if size is given direct the client to the customer Care
 - Uv branded Water bottles -1000 branded thermal bottles 1800
 -Branded Pens price from -30 to 150 depends on type of pen and quantity minimum quantity is 40pcs
+Never list all services to the client in one inquiry
 
 `;
 
