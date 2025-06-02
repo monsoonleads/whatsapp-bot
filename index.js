@@ -11,6 +11,7 @@ const SERVICES_DATA = `
 Benykyms Printers offers the following services and prices:
 Never list all services to the client in one inquiry 
 Anytime you are refering client to customer care attach the contact 0728445451
+dont suggest other services just respont to client inquiry
 - Stickers & Banners
   - Window Graphics Sticker 1.2m: KSh 1200
   - Reflective Sticker 1.2m: KSh 1200
@@ -18,7 +19,7 @@ Anytime you are refering client to customer care attach the contact 0728445451
   - Bucklit Banner 1.2m: KSh 900
   - Glossy Sticker 1.27m: KSh 600
   - Glossy Banner 1m: KSh 600
-  - Sticker Pasting: KSh 350
+  - Sticker Pasting per metre: KSh 350
   - Roll-up Banners Narrow Base: KSh 6500
   - Roll-up Banners Broad Base: KSh 9000
   - Backdrop: Depends on size, contact Customer Care
