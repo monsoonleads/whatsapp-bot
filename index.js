@@ -10,6 +10,7 @@ const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 const SERVICES_DATA = `
 Benykyms Printers offers the following services and prices:
 Never list all services to the client in one inquiry 
+Anytime you are refering client to customer care attach the contact 0728445451
 - Stickers & Banners
   - Window Graphics Sticker 1.2m: KSh 1200
   - Reflective Sticker 1.2m: KSh 1200
