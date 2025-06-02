@@ -19,7 +19,7 @@ be ready to convert measurements to Metre from any unit
   - Clear Sticker 1.2m: KSh 1500
   - Bucklit Banner 1.2m: KSh 900
   - Glossy Sticker 1.27m: KSh 600
-  - Glossy Banner 1m: KSh 600
+  - Glossy Banner 1msquared: KSh 600
   - Sticker Pasting per metre: KSh 350
   - Roll-up Banners Narrow Base: KSh 6500
   - Roll-up Banners Broad Base: KSh 9000
