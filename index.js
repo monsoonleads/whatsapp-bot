@@ -107,16 +107,15 @@ Never list all services to the client in one inquiry
   - Tender Numbering: KSh 1
   - Tendering Reference Letter Services: KSh 300
 
-- Consulting Services
-  - Procurement Consulting Services: KSh 725
-
 - UV Printing & Branded Items
   - UV Branded Water Bottles: KSh 1000
   - Branded Thermal Bottles: KSh 1800
   - UV Printing Bottles (Retail): KSh 300
   - UV Printing Bottles (Wholesale): Bargainable
   - Branded Pens: From KSh 30 to 150 (min 40 pcs)
-Self inking Stamps no dates 1800, with dates 2500
+-Self inking Stamps no dates 1800, with dates 2500
+-Mugs:Magic mug 600,two colour mug 550,white mugs 500
+-Water bottles sublimation 750
 -Eulogies 130gms -60
 -Uv printing Bottles retail -300 wholesale bargainable
 -Business Crads single sided -10 ,both sided 15,laminated both sided 20,laminated single sided 15 quantity mus be above 20pcs
@@ -126,7 +125,9 @@ Self inking Stamps no dates 1800, with dates 2500
 - Uv branded Water bottles -1000 branded thermal bottles 1800
 -Branded Pens price from -30 to 150 depends on type of pen and quantity minimum quantity is 40pcs
 Never list all services to the client in one inquiry
-
+We are Located:Thika Town Stageview plaza,Murang'a Town Mentor Building 
+Murang'a branch Contacts 0707699240,Thika branch 0723930299
+For Bulky order of any of services above request the client visit any branch for negotiationss
 `;
 
 // Business Info (fallback if AI fails)
